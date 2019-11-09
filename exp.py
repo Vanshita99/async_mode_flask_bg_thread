@@ -118,4 +118,4 @@ def test_disconnect():
 
 
 if __name__ == '__main__':
-    socketio.run(app, app, host="192.168.17.19",port=5000)
+    socketio.run(app,  host="192.168.17.19",port=5000)
